@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_margin="10dp"
+        android:layout_margin="16dp"
         android:orientation="horizontal">
 
         <!-- Edit Text view for entering search bar-->
@@ -18,7 +18,7 @@
             android:id="@+id/search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.7"
+            android:layout_weight="0.9"
             android:hint="@string/hint"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -26,7 +26,7 @@
             android:id="@+id/search_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.3"
+            android:layout_weight="0.1"
             android:contentDescription="@string/search_icon"
             android:paddingTop="10dp"
             android:src="@drawable/icons8_search_24" />
